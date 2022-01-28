@@ -1,0 +1,93 @@
+.background-image{
+    position: relative;
+    background: #fff url("kirjahylly.jpg") center center;    
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    overflow: hidden;
+    
+}
+
+.nav-link{
+    color:#212529;
+    
+}
+
+.form-control{
+    border: 1px solid #a6abaf;
+}
+
+.btn-primary{
+    background: dimgray;
+    border-color: #5f6163;
+}
+
+.bi-cart2{
+    max-height:100px;
+    color:auto;
+}
+
+
+
+.container{
+    background-color: rgba(253, 255, 253, 1);
+}
+
+.row{
+    margin:none;
+}
+
+.box1{
+    background-color: rgba(192, 216, 192, 1);
+    padding: 1em 0em 1em 0em;
+}
+
+.box2{
+    background-color: rgba(245, 238, 220, 1);  
+}
+
+.box3{
+    background-color: rgba(236, 179, 144, 1);
+    height: 70px;
+    width: 400px;  
+}
+
+.mySlides{
+    padding: 2em;
+    display: block;
+    max-width: 100%;
+    height: auto;  
+}
+
+.slideShow{
+    padding-top: 2em;
+    padding-bottom: 2em;
+}
+
+.img-fluid{
+    padding: 2em 3em 1em 3em;
+}
+
+.row{
+    padding: 1em 3em 1em 3em;
+}
+
+h1{
+    text-transform:uppercase;
+    padding-bottom: 0.5em;
+}
+
+h2{
+    font-size: 2em;
+    text-transform:uppercase;
+}
+
+h3{
+    font-size: 1.2em;
+}
+
+.footer{
+    background-color: rgba(192, 216, 192, 1);
+    text-align: center;
+    padding: 1em;
+}
