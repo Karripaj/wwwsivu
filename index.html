@@ -78,35 +78,37 @@
         
         <div class="container">
             <div class="row" >
-                <div class="col-sm-3 text-center">sivu</div>
-                <div class="col-sm-6 text-center">
+                <div class="col-sm-12 text-center">
                 
-                    <div class="slideshow">
-            
-                        <!-- <img class="mySlides" src="kirjat1.jpg"> -->
-                        <img class="mySlides" src="kirjat2.jpg">
-                            
-                        <!-- <script>
-                            var slideIndex = 0;
-                            carousel();
-
-                            function carousel() {
-                            var i;
-                            var x = document.getElementsByClassName("mySlides");
-                            for (i = 0; i < x.length; i++) {
-                            x[i].style.display = "none";
-                            }
-                            slideIndex++;
-                            if (slideIndex > x.length) {slideIndex = 1}
-                            x[slideIndex-1].style.display = "block";
-                            setTimeout(carousel, 2000); // Change image every 2 seconds
-                            }
-                        </script> -->
+                    <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+                        <div class="carousel-indicators">
+                          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                        </div>
+                        <div class="carousel-inner">
+                          <div class="carousel-item active">
+                            <img src="ilmtoim.jpg" class="d-block w-100" alt="...">
+                          </div>
+                          <div class="carousel-item">
+                            <img src="kirjat1.jpg" class="d-block w-100" alt="...">
+                          </div>
+                          <div class="carousel-item">
+                            <img src="kirjarivi.jpg" class="d-block w-100" alt="...">
+                          </div>
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                          <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                          <span class="visually-hidden">Next</span>
+                        </button>
+                      </div>
             
                     </div>
                 </div>
-
-                <div class="col-sm-3 text-center">sivu</div>
             </div>
         </div>
         

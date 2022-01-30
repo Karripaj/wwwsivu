@@ -27,7 +27,9 @@
     color:auto;
 }
 
-
+.carousel-inner {
+    width:100%;
+  }
 
 .container{
     background-color: rgba(253, 255, 253, 1);
