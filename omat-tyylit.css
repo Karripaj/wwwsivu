@@ -102,3 +102,7 @@ h3{
     background: #F5EEDC;
     border-radius: 10px;
 }
+
+hr {
+    border-top: 5px solid black;
+}
