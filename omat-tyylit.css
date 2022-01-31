@@ -45,8 +45,10 @@
     padding: 1em 0em 1em 0em;
 }
 
+
+
 .box2{
-    background-color: rgba(245, 238, 220, 1);  
+    background-color: rgba(245, 238, 220, 1); 
 }
 
 .box3{
@@ -95,13 +97,14 @@ h3{
     padding: 1em;
 }
 
+
 .btn {
     color: #000000;
-    padding: 10px 50px;
-    font-size: 15px;
+    padding: 0.625em 3.125em;
+    font-size: 1em;
     font-weight: 700;
     background: #F5EEDC;
-    border-radius: 10px;
+    border-radius: 0.625em;
 }
 
 hr {
