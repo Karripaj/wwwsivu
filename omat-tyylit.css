@@ -4,7 +4,8 @@
     width: 100%;
     height: 100%;
     background-size: cover;
-    overflow: hidden;
+    
+    
     
 }
 
@@ -44,12 +45,14 @@
 .box1{
     background-color: rgba(192, 216, 192, 1);
     padding: 1em 0em 1em 0em;
+    height: 8.125em;
 }
 
 
 
 .box2{
     background-color: rgba(245, 238, 220, 1); 
+    height: 6.875em;
 }
 
 .box3{
