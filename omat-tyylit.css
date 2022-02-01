@@ -116,13 +116,14 @@ h3{
 }
 
 
-.btn {
+button {
     color: #000000;
-    padding: 0.625em 3.125em;
+    padding: 5% 5%;
     font-size: 1em;
     font-weight: 700;
     background: #F5EEDC;
     border-radius: 0.625em;
+    border-color: #F5EEDC;
 }
 
 hr {
