@@ -11,6 +11,7 @@
 
 .nav-link{
     color:#212529;
+    padding: 0em;
     
 }
 
@@ -38,8 +39,9 @@
     padding: 0em;
 }
 
-.row{
+.row1{
     margin:none;
+    padding: 0.3em 3em;
 }
 
 .box1{
@@ -58,6 +60,10 @@
       margin: 10px auto 5px 20px;
       width: 28%;
       display: none;
+    }
+    .img-responsive{
+        height: 40px;
+        width: 60px;
     }
   }
 
