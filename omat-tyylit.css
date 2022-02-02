@@ -44,14 +44,14 @@
 
 .box1{
     background-color: rgba(192, 216, 192, 1);
-    padding: 1em 0em 1em 0em;
-    height: 6.125em
+    padding: 0em
+    
     
    
 }
 
-@media screen and (max-width: 600px) {
-    .haku, .karuselli {
+@media screen and (max-width: 768px) {
+    .karuselli {
       visibility: hidden;
       clear: both;
       float: left;
