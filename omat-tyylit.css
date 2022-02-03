@@ -62,13 +62,10 @@
       display: none;
     }
     .img-responsive{
-        height: 40px;
-        width: 60px;
+        height: 60px;
+        width: 140px;
     }
   }
-
-
-
 
 .box2{
     background-color: rgba(245, 238, 220, 1); 
