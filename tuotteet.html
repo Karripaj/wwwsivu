@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="fi">
   <head>
-    <title>Bookstore</title>
+    <title>Tuotteet | Bookstore</title>
     <link rel="icon" href="logo.jpg" type="image/icon type">
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -23,7 +23,7 @@
                             <a class="nav-link" href="index.html">
                                 <img src="logoteksti.jpg" class="img-responsive" alt="logo" width="200px" height="80px">
                             </a>
-                            <h2><a class="nav-link" href="#"><i class="bi bi-cart2"></i></a></h2>
+                            <a class="nav-link" href="#"><i class="bi bi-basket2"></i></a>    
                         </div>
                     </div>
                 </div>
@@ -39,7 +39,7 @@
                                     <div class="collapse navbar-collapse" id="collapsibleNavbar">
                                         <ul class="navbar-nav">
                                             <li class="nav-item">
-                                            <a class="nav-link" href="#">Yritys</a>
+                                                <a class="nav-link" href="yritys.html">Yritys</a>
                                             </li>
                                             <li class="nav-item">
                                                 <a class="nav-link" href="tuotteet.html">Tuotteet</a>
@@ -47,15 +47,15 @@
                                             <li class="nav-item">
                                                 <a class="nav-link" href="#">Myymälät</a>
                                             </li>
-                                            <li class="nav-item">
-                                                <a class="nav-link" href="#">Asiakaspalvelu</a>
-                                            </li>
                                         </ul>
                                     </div>
                                 </div>
                             </nav>
-                            <div class="search"> <i class="fa fa-search"></i> <input type="text" class="form-control" placeholder="Etsi"> </div>  
-                            <div class="col-">
+                            <div class="col-sm"></div>
+                            <div class="col-sm">
+                                <div class="search"> <i class="fa fa-search"></i> <input type="text" class="form-control" placeholder="Etsi"> </div>
+                            </div> 
+                            <div class="float-right">
                                 <button class="btn btn-primary">
                                     <i class="bi bi-search"></i>
                                 </button>
@@ -66,148 +66,145 @@
             </div>
         
         
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-12">
+                        <div><a href="index.html">Etusivu</a> / Tuotteet</div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-sm-12"> 
+                        <h2>Kaikki tuotteet</h2>
+                    </div>
+                </div>
+                <div class="row" type="select">
+                    <div class="col-sm-12 text-end">
+                        <select> 
+                            <option>Suosituimmat ensin</option>
+                            <option>A-Ö, nimen mukaan</option>
+                            <option>A-Ö, nimen mukaan</option>
+                            <option>Hinta, halvin ensin</option>
+                            <option>Hinta, kallein ensin</option>
+                        </select>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="container">    
+                <div class="row">
+                    <div class="col-6 col-sm-3 text-center">
+                        <p><img src="kirja1.JPG" class="img-fluid" alt=""></p>
+                        <h3>Opiskelijan ohjelmointi</h3>
+                        <h3>19,95€ <del>29,95</del></h3>
+                        <button class="#" type="button">Lisää ostoskoriin</a>
+                    </div>
+                    <div class="col-6 col-sm-3 text-center"> 
+                        <p><img src="kirja2.JPG" class="img-fluid" alt=""></p>
+                        <h3>Kyberuhkia ja somesotaa</h3>
+                        <h3>29,95€ <del>34,95</del></h3>
+                        <button class="#" type="button">Lisää ostoskoriin</a>
+                    </div>
+                    <div class="col-6 col-sm-3 text-center">
+                        <p><img src="kirja3.JPG" class="img-fluid" alt=""></p>
+                        <h3>Pimeä netti</h3>
+                        <h3>14,95€ <del>19,95€</del></h3>
+                        <button class="#" type="button">Lisää ostoskoriin</a>
+                    </div>
+                    <div class="col-6 col-sm-3 text-center">
+                        <p><img src="kirja4.JPG" class="img-fluid" alt=""></p>
+                        <h3>Sopiva ruutuaika</h3>
+                        <h3>19,95€ <del>29,95€</del></h3>
+                        <button class="#" type="button">Lisää ostoskoriin</a>
+                    </div>
+                </div>
+            </div>
+        
+        
+            <div class="container">    
+                <div class="row">
+                    <div class="col-6 col-sm-3 text-center">
+                        <p><img src="kirja5.JPG" class="img-fluid" alt=""></p>
+                        <h3>Verkko ja vapaus</h3>
+                        <h3>19,95€</h3>
+                        <button class="#" type="button">Lisää ostoskoriin</a>
+                    </div>
+                    <div class="col-6 col-sm-3 text-center"> 
+                        <p><img src="kirja6.JPG" class="img-fluid" alt=""></p>
+                        <h3>VideoGuru</h3>
+                        <h3>15,95€</del></h3>
+                        <button class="#" type="button">Lisää ostoskoriin</a>
+                    </div>
+                    <div class="col-6 col-sm-3 text-center">
+                        <p><img src="kirja7.JPG" class="img-fluid" alt=""></p>
+                        <h3>Verkkorikokset</h3>
+                        <h3>29,95€</h3>
+                        <button class="#" type="button">Lisää ostoskoriin</a>
+                    </div>
+                    <div class="col-6 col-sm-3 text-center">
+                        <p><img src="kirja8.JPG" class="img-fluid" alt=""></p>
+                        <h3>Infosota</h3>
+                        <h3>11,95€</h3>
+                        <button class="#" type="button">Lisää ostoskoriin</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="container">    
+                <div class="row">
+                    <div class="col-6 col-sm-3 text-center">
+                        <p><img src="kirja9.JPG" class="img-fluid" alt=""></p>
+                        <h3>Linkki</h3>
+                        <h3>12,95€</h3>
+                        <button class="#" type="button">Lisää ostoskoriin</a>
+                    </div>
+                    <div class="col-6 col-sm-3 text-center"> 
+                        <p><img src="kirja10.JPG" class="img-fluid" alt=""></p>
+                        <h3>Miksi</h3>
+                        <h3>19,95€</del></h3>
+                        <button class="#" type="button">Lisää ostoskoriin</a>
+                    </div>
+                    <div class="col-6 col-sm-3 text-center">
+                        <p><img src="kirja11.JPG" class="img-fluid" alt=""></p>
+                        <h3>Oikeus tietoon</h3>
+                        <h3>25,95€</h3>
+                        <button class="#" type="button">Lisää ostoskoriin</a>
+                    </div>
+                    <div class="col-6 col-sm-3 text-center">
+                        <p><img src="kirja12.JPG" class="img-fluid" alt=""></p>
+                        <h3>Hyvän historia</h3>
+                        <h3>9,95€</h3>
+                        <button class="#" type="button">Lisää ostoskoriin</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
         <div class="container">
-            <div class="row">
+            <div class="footer">
+                <div class="row">
+                <div class="col-sm-4 content-">
+                    <img src="logoteksti.jpg" class="img-responsive" alt="logo" width="170px" height="70px">
+                </div>
+                <div class="col-sm-4 text-s">
+                    <p>
+                        Asiakaspalvelu<br>
+                        bstore@lorem.com<br>
+                        050 123 4567<br>
+                    </p>
+                </div>
+                <div class="col-sm-4">
+                    <p>Aukioloajat<br>
+                        ma-pe klo 8-15<br>
+                        la klo 10-15</p>
+                </div>
+                </div>
+                
                 <div class="col-sm-12">
-                    <div><a href="index.html">Etusivu</a> / Tuotteet</div>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-sm-12"> 
-                    <h2>Kaikki tuotteet</h2>
-                </div>
-            </div>
-            <div class="row" type="select">
-                <div class="col-sm-12 text-end">
-                    <select> 
-                        <option>Suosituimmat ensin</option>
-                        <option>A-Ö, nimen mukaan</option>
-                        <option>A-Ö, nimen mukaan</option>
-                        <option>Hinta, halvin ensin</option>
-                        <option>Hinta, kallein ensin</option>
-                    </select>
-                </div>
-            </div>
-
-        </div>
-
-
-        <div class="container">    
-            <div class="row">
-                <div class="col-6 col-sm-3 text-center">
-                    <p><img src="kirja1.JPG" class="img-fluid" alt=""></p>
-                    <h3>Opiskelijan ohjelmointi</h3>
-                    <h3>19,95€ <del>29,95</del></h3>
-                    <button class="#" type="button">Lisää ostoskoriin</a>
-                </div>
-                <div class="col-6 col-sm-3 text-center"> 
-                    <p><img src="kirja2.JPG" class="img-fluid" alt=""></p>
-                    <h3>Kyberuhkia ja somesotaa</h3>
-                    <h3>29,95€ <del>34,95</del></h3>
-                    <button class="#" type="button">Lisää ostoskoriin</a>
-                </div>
-                <div class="col-6 col-sm-3 text-center">
-                    <p><img src="kirja3.JPG" class="img-fluid" alt=""></p>
-                    <h3>Pimeä netti</h3>
-                    <h3>14,95€ <del>19,95€</del></h3>
-                    <button class="#" type="button">Lisää ostoskoriin</a>
-                </div>
-                <div class="col-6 col-sm-3 text-center">
-                    <p><img src="kirja4.JPG" class="img-fluid" alt=""></p>
-                    <h3>Sopiva ruutuaika</h3>
-                    <h3>19,95€ <del>29,95€</del></h3>
-                    <button class="#" type="button">Lisää ostoskoriin</a>
+                <p>&copy; 2022 Bookstore</p>
                 </div>
             </div>
         </div>
-        
-        
-        <div class="container">    
-            <div class="row">
-                <div class="col-6 col-sm-3 text-center">
-                    <p><img src="kirja5.JPG" class="img-fluid" alt=""></p>
-                    <h3>Verkko ja vapaus</h3>
-                    <h3>19,95€</h3>
-                    <button class="#" type="button">Lisää ostoskoriin</a>
-                </div>
-                <div class="col-6 col-sm-3 text-center"> 
-                    <p><img src="kirja6.JPG" class="img-fluid" alt=""></p>
-                    <h3>VideoGuru</h3>
-                    <h3>15,95€</del></h3>
-                    <button class="#" type="button">Lisää ostoskoriin</a>
-                </div>
-                <div class="col-6 col-sm-3 text-center">
-                    <p><img src="kirja7.JPG" class="img-fluid" alt=""></p>
-                    <h3>Verkkorikokset</h3>
-                    <h3>29,95€</h3>
-                    <button class="#" type="button">Lisää ostoskoriin</a>
-                </div>
-                <div class="col-6 col-sm-3 text-center">
-                    <p><img src="kirja8.JPG" class="img-fluid" alt=""></p>
-                    <h3>Infosota</h3>
-                    <h3>11,95€</h3>
-                    <button class="#" type="button">Lisää ostoskoriin</a>
-                </div>
-            </div>
-        </div>
-
-        <div class="container">    
-            <div class="row">
-                <div class="col-6 col-sm-3 text-center">
-                    <p><img src="kirja9.JPG" class="img-fluid" alt=""></p>
-                    <h3>Linkki</h3>
-                    <h3>12,95€</h3>
-                    <button class="#" type="button">Lisää ostoskoriin</a>
-                </div>
-                <div class="col-6 col-sm-3 text-center"> 
-                    <p><img src="kirja10.JPG" class="img-fluid" alt=""></p>
-                    <h3>Miksi</h3>
-                    <h3>19,95€</del></h3>
-                    <button class="#" type="button">Lisää ostoskoriin</a>
-                </div>
-                <div class="col-6 col-sm-3 text-center">
-                    <p><img src="kirja11.JPG" class="img-fluid" alt=""></p>
-                    <h3>Oikeus tietoon</h3>
-                    <h3>25,95€</h3>
-                    <button class="#" type="button">Lisää ostoskoriin</a>
-                </div>
-                <div class="col-6 col-sm-3 text-center">
-                    <p><img src="kirja12.JPG" class="img-fluid" alt=""></p>
-                    <h3>Hyvän historia</h3>
-                    <h3>9,95€</h3>
-                    <button class="#" type="button">Lisää ostoskoriin</a>
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <div class="container">
-        <div class="footer">
-            <div class="row">
-            <div class="col-sm-4 content-">
-                <img src="logoteksti.jpg" class="img-responsive" alt="logo" width="170px" height="70px">
-            </div>
-            <div class="col-sm-4 text-s">
-                <p>
-                    Asiakaspalvelu<br>
-                    bstore@lorem.com<br>
-                    050 123 4567<br>
-                </p>
-            </div>
-            <div class="col-sm-4">
-                <p>Aukioloajat<br>
-                    ma-pe klo 8-15<br>
-                    la klo 10-15</p>
-            </div>
-            </div>
-            
-            <div class="col-sm-12">
-            <p>&copy; 2022 Bookstore</p>
-            </div>
-            </div>
-        </div>
-    </div>
-    
     </div>
     
     </body>

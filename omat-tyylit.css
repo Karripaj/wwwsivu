@@ -3,10 +3,7 @@
     background: #fff url("kirjahylly.jpg") center center;    
     width: 100%;
     height: 100%;
-    background-size: cover;
-    
-    
-    
+    background-size: cover;    
 }
 
 .nav-link{
@@ -24,9 +21,9 @@
     border-color: #5f6163;
 }
 
-.bi-cart2{
-    max-height:100px;
-    color:auto;
+.bi-basket2{
+    font-size: 2em;
+    
 }
 
 .carousel-inner > .carousel-item > img {
@@ -46,10 +43,7 @@
 
 .box1{
     background-color: rgba(192, 216, 192, 1);
-    padding: 0em
-    
-    
-   
+    padding: 0em  
 }
 
 @media screen and (max-width: 768px) {
@@ -68,32 +62,13 @@
     .img-fluid {
         padding: 1em;
     }
+    
   }
 
 .box2{
     background-color: rgba(245, 238, 220, 1); 
    
 }
-
-.box3{
-    background-color: rgba(236, 179, 144, 1);
-    height: 70px;
-    width: 400px;  
-}
-
-.mySlides{
-    padding: 2em;
-    display: block;
-    max-width: 100%;
-    height: auto;  
-}
-
-.slideShow{
-    padding-top: 2em;
-    padding-bottom: 2em;
-}
-
-
 
 .row{
     padding: 1em 3em 1em 3em;
@@ -121,7 +96,7 @@ h3{
 
 
 button {
-    color: #000000;
+    color: #212529;
     padding: 3%;
     font-size: 1em;
     font-weight: 700;
